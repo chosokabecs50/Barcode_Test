@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Barcode_Test.Views.MainPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <!-- Place new controls here -->
+                <Button Text="Go to Scan Page" Clicked="Button1_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
